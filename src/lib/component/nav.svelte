@@ -1,5 +1,6 @@
 <script>
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+    import { base } from '$app/paths';
 </script>
 
 <style lang="scss">
@@ -18,16 +19,16 @@
 </style>
   
 <div class="modnav">
-    <NavBrand href="/">
-      <img src="/images/SVG/scribble-text.svg" class="me-3 h-[5rem] sm:h-[5rem]" alt="Flowbite Logo" />
+    <NavBrand href={base + "/"}>
+      <img src={base + "/images/SVG/scribble-text.svg"} class="me-3 h-[5rem] sm:h-[5rem]" alt="Flowbite Logo" />
       <!-- <span class="self-center whitespace-nowrap text-3xl font-semibold dark:text-white text-gray-600">Sapru Lab</span> -->
     </NavBrand>
     <NavHamburger  />
     <NavUl ulClass="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:text-md md:font-medium mr-0 pr-0">
-      <NavLi href="/">Home</NavLi>
-      <NavLi href="/people">People</NavLi>
-      <NavLi href="/news">News</NavLi>
-      <NavLi href="/about">About</NavLi>
-      <NavLi href="/contact">Contact</NavLi>
+      <NavLi href={base + "/"}>Home</NavLi>
+      <NavLi href={base + "/people"}>People</NavLi>
+      <NavLi href={base + "/news"}>News</NavLi>
+      <NavLi href={base + "/about"}>About</NavLi>
+      <NavLi href={base + "/contact"}>Contact</NavLi>
     </NavUl>
 </div>

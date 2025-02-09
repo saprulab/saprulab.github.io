@@ -18,7 +18,7 @@ const config = {
         }),
         paths: {
             // change below to your repo name
-            base: dev ? "" : "/hi-rise",
+            base: dev ? "" : "/saprulab",
             relative: true
         },
 	},

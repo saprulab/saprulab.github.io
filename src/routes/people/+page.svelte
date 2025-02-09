@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
-
+    import { base } from '$app/paths';
     import { Gallery } from 'flowbite-svelte';
 
     let people = [
