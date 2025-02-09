@@ -6,6 +6,11 @@
 	let { children } = $props();
     import { page } from '$app/state';
 	import ScribblePurple from '$lib/component/scribblePurple.svelte';
+	import { onMount } from 'svelte';
+
+    onMount(() => {
+        console.log(page.url.pathname)
+    })
 
 </script>
 
@@ -21,8 +26,8 @@
 <div class="main">
     <Nav/>
     {@render children()}
-    {#if page.url.pathname == "/people"}<ScribbleRed />
-    {:else if page.url.pathname == "/news"}<ScribblePurple />
+    {#if page.url.pathname.endsWith("/people")}<ScribbleRed />
+    {:else if page.url.pathname.endsWith("/news")}<ScribblePurple />
     {:else}<ScribbleBlue />{/if}
 </div>
 

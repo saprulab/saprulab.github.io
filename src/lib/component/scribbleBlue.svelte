@@ -7,9 +7,9 @@
 <style>
     .scribble {
         position: absolute;
-        left: -5%;
+        left: -5vw;
         top: 10%;
-        height: 100vh;
+        width: 110vw;
         z-index: 5;
     }
 </style>

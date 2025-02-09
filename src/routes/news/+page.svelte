@@ -42,7 +42,7 @@
         @apply p-8 mt-2;
         border-radius: 1rem;
         border: solid 1px black;
-        max-width: max(60%, 400px);
+        max-width: min(max(60%, 400px), 800px);
         background: white;
         > img {
             position: relative;
@@ -50,6 +50,7 @@
             max-height: 200px;
             object-fit: cover;
             margin-bottom: 1rem;
+            border-bottom: solid 1px black;
         }
     }
     :global(time + h3) {
