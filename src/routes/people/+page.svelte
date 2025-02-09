@@ -11,7 +11,7 @@
         },
         {
             name: "Clove Taylor, BS",
-            src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgameland.gg%2Fwp-content%2Fuploads%2F2024%2F03%2Fclove-valorant-agent-1-921x518.jpg&f=1&nofb=1&ipt=0db6397e26f47050b6f06bb40e0464d414c598744e8d679e52ba1f171665c066&ipo=images"
+            src: null
         },
         {
             name: "Nithya Reddy",
