@@ -27,7 +27,7 @@
       <NavLi href="/">Home</NavLi>
       <NavLi href="/people">People</NavLi>
       <NavLi href="/news">News</NavLi>
-      <NavLi href="/pricing">About</NavLi>
+      <NavLi href="/about">About</NavLi>
       <NavLi href="/contact">Contact</NavLi>
     </NavUl>
 </div>
