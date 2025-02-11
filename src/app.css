@@ -9,6 +9,10 @@ html {
     overflow-x: hidden;
 }
 
+svg {
+    font-family: 'Inter', 'Helvetica', sans-serif !important;
+}
+
 .pop {
     position: relative !important;
     background: white !important;
