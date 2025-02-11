@@ -2,12 +2,7 @@
 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 705.192 191.661">
   <defs>
     <style>
-
-      @font-face {
-        font-family: Inter;
-        src: url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Inter:wght@100..900&display=swap');
-      }  
-
+      
       .cls-1 {
         stroke: #2ee0e6;
       }
@@ -39,7 +34,7 @@
       }
 
       .cls-5 {
-        font-family: Inter-Bold, Inter;
+        font-family: Inter-Bold, Inter, Arial, sans-serif;
         font-size: 96px;
         font-variation-settings: 'opsz' 14, 'wght' 700;
         font-weight: 700;
