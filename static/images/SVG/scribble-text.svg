@@ -2,6 +2,7 @@
 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 705.192 191.661">
   <defs>
     <style>
+
       .cls-1 {
         stroke: #2ee0e6;
       }
@@ -22,7 +23,7 @@
       }
 
       .cls-4 {
-        font-family: Inter-Medium, Inter;
+        font-family: "Inter-Medium", "Inter", sans-serif;
         font-size: 48px;
         font-variation-settings: 'opsz' 14, 'wght' 500;
         font-weight: 500;
@@ -33,11 +34,12 @@
       }
 
       .cls-5 {
-        font-family: Inter-Bold, Inter;
+        font-family: "Inter-Bold", "Inter", sans-serif;
         font-size: 96px;
         font-variation-settings: 'opsz' 14, 'wght' 700;
         font-weight: 700;
       }
+
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">

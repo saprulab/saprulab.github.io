@@ -9,6 +9,17 @@ html {
     overflow-x: hidden;
 }
 
+svg {
+    font-family: 'Inter', 'Helvetica', sans-serif !important;
+}
+
+.cls-5 {
+    font-family: 'Inter';
+    font-size: 96px;
+    font-variation-settings: 'opsz' 14, 'wght' 700;
+    font-weight: 700;
+}
+
 .pop {
     position: relative !important;
     background: white !important;

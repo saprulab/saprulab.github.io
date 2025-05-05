@@ -3,14 +3,20 @@
 	import { fly } from 'svelte/transition';
     import { base } from '$app/paths';
     import { Gallery } from 'flowbite-svelte';
+	import Person from '$lib/component/person.svelte';
 
     let people = [
         {
             name: "Anil Sapru, MD",
-            src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.uclahealth.org%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fportrait_3x4_010000_300x400%2Fpublic%2Fimages%2Fsapru-anil-1477644219.jpg%3Fh%3Dad8d341c%26f%3Df188de4a%26itok%3DcFl5vbUJ&f=1&nofb=1&ipt=ba3628cf110f4b5054576a49bd78872538d580eb5e7cb9ef90f7291b46d2dd97&ipo=images"
+            src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.uclahealth.org%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fportrait_3x4_010000_300x400%2Fpublic%2Fimages%2Fsapru-anil-1477644219.jpg%3Fh%3Dad8d341c%26f%3Df188de4a%26itok%3DcFl5vbUJ&f=1&nofb=1&ipt=ba3628cf110f4b5054576a49bd78872538d580eb5e7cb9ef90f7291b46d2dd97&ipo=images",
+            summary: "Anil Sapru is a pediatric critical care physician and researcher with decades of experience studying inflammatory biomarkers in critically ill children."
         },
         {
             name: "Clove Taylor, BS",
+            src: null
+        },
+        {
+            name: "Riya Abiram",
             src: null
         },
         {
@@ -18,11 +24,19 @@
             src: null
         },
         {
-            name: "Christine Zhang",
+            name: "Shriya Reddy",
+            src: null
+        },
+        {
+            name: "Catherine Wang",
             src: null
         },
         {
             name: "Dylan Yu",
+            src: null
+        },
+        {
+            name: "Christine Zhang",
             src: null
         },
     ]
@@ -46,39 +60,10 @@
     .people {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
         gap: 2rem;
-        .person {
-            border: solid 2px black;
-            border-radius: 0.5rem;
-            width: 275px;
-            aspect-ratio: 3/4;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            z-index: 1000;
-            &:hover {
-                > img {
-                    scale: 1.1;
-                    filter: saturate(1.4);
-                }
-            }
-            > img {
-                transition: filter 0.5s ease, scale 0.5s ease;
-                object-fit: cover;
-                filter: saturate(1);
-                height: 90%;
-            }
-            > div {
-                background: black;
-                color: white;
-                height: 10%;
-                @apply p-2;
-                z-index: 10;
-            }
-            &.alum > div {
-                
-            }
+        z-index: 10000;
+        .person-wrapper {
+            z-index: inherit;
         }
     }
 </style>
@@ -89,11 +74,8 @@
         <div class="people mt-8 mb-8">
             {#if flyIn}
                 {#each people as person, i}
-                    <div class={`person${person.alum ? " alum" : ""}`} in:fly|global={{ y: 50, duration: 800, delay: (80*i) }}>
-                        <img src={person.src ?? "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F534%2F006%2Foriginal%2Fsocial-media-chatting-online-blank-profile-picture-head-and-body-icon-people-standing-icon-grey-background-free-vector.jpg&f=1&nofb=1&ipt=0541b37557b556d60ad384345c3c72310f5681fa608c069ee77fe5fa28040e6e&ipo=images"} alt={`Image of ${person.name ?? "Unknown"}`}/>
-                        <div>
-                            {person.name}
-                        </div>
+                    <div class="person-wrapper" in:fly|global={{ y: 50, duration: 800, delay: (80*i) }} >
+                        <Person person={person}/>
                     </div>
                 {/each}
             {/if}
