@@ -20,7 +20,7 @@
   
 <div class="modnav">
     <NavBrand href={base + "/"}>
-      <img src={base + "/images/SVG/scribble-text.svg"} class="me-3 h-[5rem] sm:h-[5rem]" alt="Flowbite Logo" />
+      <img src={base + "/images/SVG/scribble-text.svg"} class="me-3 h-[5rem] sm:h-[5rem]" alt="Sapru Lab" />
       <!-- <span class="self-center whitespace-nowrap text-3xl font-semibold dark:text-white text-gray-600">Sapru Lab</span> -->
     </NavBrand>
     <NavHamburger  />
