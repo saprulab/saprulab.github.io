@@ -7,6 +7,7 @@
     import { page } from '$app/state';
 	import ScribblePurple from '$lib/component/scribblePurple.svelte';
 	import { onMount } from 'svelte';
+	import Footer from '$lib/component/footer.svelte';
 
     onMount(() => {
         console.log(page.url.pathname)
@@ -29,5 +30,6 @@
     {#if page.url.pathname.endsWith("/people")}<ScribbleRed />
     {:else if page.url.pathname.endsWith("/news")}<ScribblePurple />
     {:else}<ScribbleBlue />{/if}
+    <Footer/>
 </div>
 

@@ -10,7 +10,7 @@
         left: -5vw;
         top: 10%;
         width: 110vw;
-        z-index: 5;
+        z-index: -1;
     }
 </style>
 

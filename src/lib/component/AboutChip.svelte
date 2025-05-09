@@ -25,29 +25,41 @@
             padding: 2rem;
             font-size: x-large;
             z-index: 1;
-            background: white;
         }
         .profile {
             display: flex;
             flex-direction: row-reverse;
-            align-items: flex-end;
-            > img {
-                border-radius: 2rem;
-                overflow: hidden;
-                border: solid 2px black;
-            }
+            align-items: flex-start;
             z-index: 20;
+        }
+        img {
+            overflow: hidden;
+            border-top: solid 20px black;
+        }
+        .text {
+            background: white;
+            padding: 1.5rem 1.5rem;
+            > p {
+                margin-top: 1rem;
+                font-size: large;
+            }
+        }
+        h1 {
+            font-size: xx-large;
+            font-weight: 500;
+            line-height: 2.5rem;
         }
     }
 </style>
 
 <div class="about">
-    <div class="blurb">
+    <div class="text shadow">
+        <h1><b>Discovering what matters most</b> in pediatric critical care.</h1>
         <p class="pop">
-            The <b>Sapru Lab</b> is lorem ipsum dolor sit amet
+            The <b>Sapru Lab</b> investigates biomarkers of severe illness and mortality in challenging and complex conditions such as ARDS, MODS, and sepsis.
+            <br/><br/>
+            Anil Sapru has over 30 years of experience discovering and developing biomarkers in critical care, pushing forward high-impact research for the children who need it most.
         </p>
     </div>
-    <div class="profile">
-        <img src="https://www.uclahealth.org/sites/default/files/styles/portrait_3x4_010000_300x400/public/images/sapru-anil-1477644219.jpg?h=ad8d341c&f=f188de4a&itok=cFl5vbUJ" />
-    </div>
+    <img class="shadow" src="https://www.uclahealth.org/sites/default/files/styles/portrait_3x4_010000_300x400/public/images/sapru-anil-1477644219.jpg?h=ad8d341c&f=f188de4a&itok=cFl5vbUJ" />
 </div>

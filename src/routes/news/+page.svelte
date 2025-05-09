@@ -5,6 +5,15 @@
 
     let publications = [
         {
+            date: "May 03, 2025",
+            category: "New publication in AJRCCM",
+            title: "Biologic mechanisms underlying the heterogeneous response to tight glycemic control among differentially inflamed patients in the HALF-PINT trial",
+            href: "",
+            authors: "M. Zinter, C. Taylor et. al.",
+            abstract: "This is a sample piece of text describing the nature of the publication in full, which will likely be truncated depending on the rendering scheme of the webpage upon which it will be presented.",
+            img: "images/cafpinthte_fig4.png"
+        },
+        {
             date: "January 21, 2025",
             category: "New publication in Resuscitation",
             title: "Practice patterns for acquiring neuroimaging after pediatric in-hospital cardiac arrest",

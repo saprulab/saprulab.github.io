@@ -12,7 +12,6 @@
         top: 15%;
         height: 100vh;
         z-index: -100;
-        filter: blur(5px);
     }
 </style>
 

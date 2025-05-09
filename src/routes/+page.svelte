@@ -39,6 +39,7 @@
     .section {
         position: relative;
     }
+    
 </style>
 
 <div class="page">

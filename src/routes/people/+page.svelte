@@ -73,7 +73,7 @@
         <h1 class="text-4xl font-semibold bg-white py-4 z-[1000] pop w-min whitespace-nowrap">People</h1>
         <div class="people mt-8 mb-8">
             {#if flyIn}
-                {#each people as person, i}
+                {#each people as person, i} 
                     <div class="person-wrapper" in:fly|global={{ y: 50, duration: 800, delay: (80*i) }} >
                         <Person person={person}/>
                     </div>
@@ -84,12 +84,14 @@
         <div class="people mt-8 mb-8">
             {#if flyIn}
                 {#each alums as person, i}
-                    <div class={`person${person.alum ? " alum" : ""}`} in:fly|global={{ y: 50, duration: 800, delay: (80*i) }}>
+                    <Person person={person}/>
+                    <!-- <div class={`person${person.alum ? " alum" : ""}`} in:fly|global={{ y: 50, duration: 800, delay: (80*i) }}>
+                        
                         <img src={person.src ?? "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F534%2F006%2Foriginal%2Fsocial-media-chatting-online-blank-profile-picture-head-and-body-icon-people-standing-icon-grey-background-free-vector.jpg&f=1&nofb=1&ipt=0541b37557b556d60ad384345c3c72310f5681fa608c069ee77fe5fa28040e6e&ipo=images"} alt={`Image of ${person.name ?? "Unknown"}`}/>
                         <div>
                             {person.name}
                         </div>
-                    </div>
+                    </div> -->
                 {/each}
             {/if}
         </div>
