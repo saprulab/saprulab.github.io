@@ -43,11 +43,10 @@
         width: calc(100% - 8rem);
         max-width: 1500px;
         border-radius: 5px;
-        border: solid 2px black;
+        border-top: solid 20px black;
         height: min(600px, 40vw);
         max-height: 600px;
         display: flex;
-        border-top: solid 12px;
         overflow: hidden;
         display: grid;
         grid-template: "container";
@@ -96,7 +95,7 @@
     }
 </style>
 
-<div class="banner" in:receive={{ key: id }} out:send={{ key: id }} style={`background: url(${src})`}>
+<div class="banner shadow" in:receive={{ key: id }} out:send={{ key: id }} style={`background: url(${src})`}>
     <div class="content">
         <div class="textboxes">
             <h1 class="title">{title}</h1>
