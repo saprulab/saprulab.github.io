@@ -1,6 +1,6 @@
 <script>
     
-    import { Timeline, TimelineItem, Button } from 'flowbite-svelte';
+    import { Timeline, TimelineItem, Button, Gallery } from 'flowbite-svelte';
 	import { fly } from 'svelte/transition';
 
     let publications = [
@@ -12,6 +12,33 @@
             authors: "M. Zinter, C. Taylor et. al.",
             abstract: "This is a sample piece of text describing the nature of the publication in full, which will likely be truncated depending on the rendering scheme of the webpage upon which it will be presented.",
             img: "images/cafpinthte_fig4.png"
+        },
+        {
+            date: "May 01, 2025",
+            category: "New abstract in ATS Online",
+            title: "Differential Correlation Network Analysis Illustrates Novel Biomarker Interactions Underlying Hyperinflammation in Pediatric ARDS",
+            href: "https://www.atsjournals.org/doi/abs/10.1164/ajrccm.2025.211.Abstracts.A5675",
+            authors: "C. Taylor, M. Zinter et. al.",
+            abstract: "This is a sample piece of text describing the nature of the publication in full, which will likely be truncated depending on the rendering scheme of the webpage upon which it will be presented.",
+            img: "images/pali-network.png"
+        },
+        {
+            date: "May 01, 2025",
+            category: "New abstract in ATS Online",
+            title: "Latent Profile Analyses of Circulatory Biomarkers Indicate Distinct Patterns of Inflammation in Response to Transfusion in Pediatric MODS",
+            href: "https://www.atsjournals.org/doi/abs/10.1164/ajrccm.2025.211.Abstracts.A2959",
+            authors: "C. Taylor, D. Markovic et. al.",
+            abstract: "This is a sample piece of text describing the nature of the publication in full, which will likely be truncated depending on the rendering scheme of the webpage upon which it will be presented.",
+            img: "images/cardio-fig.png"
+        },
+        {
+            date: "May 01, 2025",
+            category: "New abstract in ATS Online",
+            title: "Robust Classification of Inflammatory Subphenotypes Using Penalized Logistic Regression on Highly Available Clinical Variables",
+            href: "https://www.atsjournals.org/doi/abs/10.1164/ajrccm.2025.211.Abstracts.A7083",
+            authors: "C. Taylor, L.N. Sanchez-Pinto et. al.",
+            abstract: "This is a sample piece of text describing the nature of the publication in full, which will likely be truncated depending on the rendering scheme of the webpage upon which it will be presented.",
+            img: "images/subphenonet.png"
         },
         {
             date: "January 21, 2025",
@@ -71,7 +98,7 @@
 
 <div class="page">
     <div class="content mt-8">
-        <h1 class="text-4xl font-semibold bg-white py-4 z-[1000] pop w-min whitespace-nowrap">News</h1>
+        <h1 class="text-4xl font-semibold bg-white py-4 z-[1000] pop w-min whitespace-nowrap">Publications</h1>
         <div class="mt-8 mb-8 relative z-10">
             <Timeline>
                 {#each publications as pub, i}

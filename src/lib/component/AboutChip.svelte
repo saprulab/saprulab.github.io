@@ -58,7 +58,7 @@
         <p class="pop">
             The <b>Sapru Lab</b> investigates biomarkers of severe illness and mortality in challenging and complex conditions such as ARDS, MODS, and sepsis.
             <br/><br/>
-            Anil Sapru has over 30 years of experience discovering and developing biomarkers in critical care, pushing forward high-impact research for the children who need it most.
+            Anil Sapru has decades of experience discovering and developing biomarkers in critical care, pushing forward high-impact research for the children who need it most.
         </p>
     </div>
     <img class="shadow" src="https://www.uclahealth.org/sites/default/files/styles/portrait_3x4_010000_300x400/public/images/sapru-anil-1477644219.jpg?h=ad8d341c&f=f188de4a&itok=cFl5vbUJ" />

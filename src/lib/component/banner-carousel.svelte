@@ -36,16 +36,16 @@
             },
             src: "images/cafpinthte_fig4.png"
         },
-        {
-            id: 0,
-            title: "Accelerating critical care discovery",
-            subtitle: "See how our clinical trials are leading pediatric critical care forward.",
-            button: {
-                text: "See our research",
-                href: "research"
-            },
-            src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pathologyoutlines.com%2Fimgau%2FmyeloproliferativeCNL_LiShanmugam02.jpg&f=1&nofb=1&ipt=5daeb23e31da65dc7c5e8c5f431acb6b71d76ba5bed48bd3548a8908604072c7&ipo=images"
-        },
+        // {
+        //     id: 0,
+        //     title: "Accelerating critical care discovery",
+        //     subtitle: "See how our clinical trials are leading pediatric critical care forward.",
+        //     button: {
+        //         text: "See our research",
+        //         href: "research"
+        //     },
+        //     src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pathologyoutlines.com%2Fimgau%2FmyeloproliferativeCNL_LiShanmugam02.jpg&f=1&nofb=1&ipt=5daeb23e31da65dc7c5e8c5f431acb6b71d76ba5bed48bd3548a8908604072c7&ipo=images"
+        // },
     ])
 </script>
 
