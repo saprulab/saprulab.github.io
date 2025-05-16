@@ -41,8 +41,8 @@
     <div class="content mt-8">
         <h1 class="text-4xl font-semibold bg-white py-4 z-[1000] pop w-min whitespace-nowrap">Posters</h1>
         <div class="mt-8 mb-8 relative z-10 gallery">
-            {#each posters as poster}
-                <a href={poster.href} class="poster">
+            {#each posters as poster, i}
+                <a href={poster.href} class="poster" in:fly|global={{ y: 50, duration: 800, delay: (80*i) }}>
                     <img src={poster.src} alt={poster.alt}/>
                 </a>
             {/each}
