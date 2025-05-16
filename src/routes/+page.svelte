@@ -48,11 +48,11 @@
 </style>
 
 <div class="page">
-    <div style="z-index: 10000000;">
+    <!-- <div style="z-index: 10000000;">
         {#if data.visited !== "true"}
             <DevModal />
         {/if}
-    </div>
+    </div> -->
     <div class="content">
         <div class="section carousel" in:fly|global={{ y: 50, duration: 800 }}>
             <BannerCarousel />
