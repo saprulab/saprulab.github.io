@@ -27,8 +27,8 @@
     <NavUl ulClass="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:text-md md:font-medium mr-0 pr-0">
       <NavLi href={base + "/"}>Home</NavLi>
       <NavLi href={base + "/people"}>People</NavLi>
-      <NavLi href={base + "/news"}>News</NavLi>
-      <NavLi href={base + "/about"}>About</NavLi>
+      <NavLi href={base + "/news"}>Research</NavLi>
+      <NavLi href={base + "/tools"}>Tools</NavLi>
       <NavLi href={base + "/contact"}>Contact</NavLi>
     </NavUl>
 </div>

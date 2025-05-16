@@ -17,14 +17,14 @@
 
     const banners = $state([
         {
-            id: 0,
-            title: "Accelerating critical care discovery",
-            subtitle: "See how our clinical trials are leading pediatric critical care forward.",
+            id: 3,
+            title: "Sapru Lab at ATS 2025",
+            subtitle: "Check out our conference abstracts online",
             button: {
-                text: "See our research",
-                href: "research"
+                text: "Check it out",
+                href: "https://www.atsjournals.org/atsabstracts2025?pageSize=20&startPage=&ContribAuthorRaw=Sapru%2C%20A"
             },
-            src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pathologyoutlines.com%2Fimgau%2FmyeloproliferativeCNL_LiShanmugam02.jpg&f=1&nofb=1&ipt=5daeb23e31da65dc7c5e8c5f431acb6b71d76ba5bed48bd3548a8908604072c7&ipo=images"
+            src: "https://ats2025365.prod1.sherpaserv.com/public/var-size/w1920/2/7/f/c/27fccec395f69206f47ff1aa5e225ebc.jpeg"
         },
         {
             id: 2,
@@ -37,14 +37,14 @@
             src: "images/cafpinthte_fig4.png"
         },
         {
-            id: 3,
-            title: "Sapru Lab at ATS 2025",
-            subtitle: "Check out our conference abstracts online",
+            id: 0,
+            title: "Accelerating critical care discovery",
+            subtitle: "See how our clinical trials are leading pediatric critical care forward.",
             button: {
-                text: "Check it out",
-                href: "https://www.atsjournals.org/atsabstracts2025?pageSize=20&startPage=&ContribAuthorRaw=Sapru%2C%20A"
+                text: "See our research",
+                href: "research"
             },
-            src: "https://ats2025365.prod1.sherpaserv.com/public/var-size/w1920/2/7/f/c/27fccec395f69206f47ff1aa5e225ebc.jpeg"
+            src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pathologyoutlines.com%2Fimgau%2FmyeloproliferativeCNL_LiShanmugam02.jpg&f=1&nofb=1&ipt=5daeb23e31da65dc7c5e8c5f431acb6b71d76ba5bed48bd3548a8908604072c7&ipo=images"
         },
     ])
 </script>

@@ -1,13 +1,12 @@
 <style>
     .footer {
-        margin-top: 8rem;
         padding: 1rem 3rem;
         width: 100%;
-        align-self: left;
         display: flex;
         justify-content: space-between;
         color: white;
         background: black;
+        margin-top: auto;
     }
 </style>
 

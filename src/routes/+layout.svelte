@@ -20,7 +20,8 @@
         padding: 0 10%;
         display: flex;
         flex-direction: column;
-        overflow: hidden;
+        overflow-y: scroll;
+        min-height: 100vh;
     }
 </style>
 
@@ -32,4 +33,5 @@
     {:else}<ScribbleBlue />{/if}
     <Footer/>
 </div>
+
 

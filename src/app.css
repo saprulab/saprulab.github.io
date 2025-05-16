@@ -13,6 +13,10 @@ svg {
     font-family: 'Inter', 'Helvetica', sans-serif !important;
 }
 
+body {
+    min-height: 100vh;
+}
+
 .pop {
     position: relative !important;
     background: white !important;
@@ -27,3 +31,8 @@ svg {
 * {
     outline: solid 1px magenta;
 } */
+
+a {
+    text-decoration: underline;
+    color: darkslateblue;
+}

@@ -10,6 +10,7 @@
         left: -5vw;
         top: 10%;
         width: 110vw;
+        max-height: 90vh;
         z-index: -1;
     }
 </style>

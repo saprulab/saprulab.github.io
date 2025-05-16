@@ -18,10 +18,11 @@
 </script>
 
 <style lang="scss">
-    .page {
+    :global(.page) {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 6rem;
     }
     .content {
         margin-left: 4rem;
@@ -39,13 +40,17 @@
     .section {
         position: relative;
     }
+
+    :global(.main) {
+        min-height: 100vh !important;
+    }
     
 </style>
 
 <div class="page">
     <div style="z-index: 10000000;">
         {#if data.visited !== "true"}
-        <DevModal />
+            <DevModal />
         {/if}
     </div>
     <div class="content">
