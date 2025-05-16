@@ -55,6 +55,7 @@
         margin-top: 4rem;
         padding: 4rem;
         background: white;
+        z-index: 100;
     }
     h1 {
         font-size: xx-large;
