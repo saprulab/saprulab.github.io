@@ -12,8 +12,8 @@
             summary: "Anil Sapru is a pediatric critical care physician and researcher with decades of experience studying inflammatory biomarkers in critically ill children."
         },
         {
-            name: "Clove Taylor, B.Sc.",
-            src: "images/profile/clove_taylor.png"
+            name: "Alejandro Espinoza, Ph.D.",
+            src: null
         },
         {
             name: "Caitlin Tang, B.Sc.",
@@ -22,10 +22,6 @@
         {
             name: "Riya Abiram",
             src: "images/profile/riya_abiram.jpg"
-        },
-        {
-            name: "Nithya Reddy",
-            src: null
         },
         {
             name: "Shriya Reddy",
@@ -40,16 +36,42 @@
             src: null
         },
         {
-            name: "Christine Zhang",
+            name: "Imogene Gaede",
+            src: null
+        },
+                {
+            name: "Satviki Chatuverdi",
+            src: null
+        },
+        {
+            name: "Anajli Mani",
+            src: null
+        },
+        {
+            name: "Elizabeth (Emma) Tu",
+            src: null
+        },
+        {
+            name: "Maya Viramontes",
             src: null
         },
     ]
     let alums = [
         {
+            name: "Clove Taylor, B.Sc.",
+            src: "images/profile/clove_taylor.png"
+            alum: true
+        },
+        {
             name: "Matt Zinter, MD",
             src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FD5603AQEwjqFWGPqRfQ%2Fprofile-displayphoto-shrink_800_800%2F0%2F1671599203688%3Fe%3D2147483647%26v%3Dbeta%26t%3D7hoZcYwInUks7o0cmvAVvEEERTTyguwSPSzUQmM52rA&f=1&nofb=1&ipt=2616fc53673b760e7939bd43ca97950ecf4c59b833082250bbefa42849eb7251&ipo=images",
             alum: true
         }
+        {
+            name: "Nithya Reddy",
+            src: null
+            alum: true
+        },
     ]
 
     let flyIn = false;
