@@ -44,8 +44,8 @@
             src: null
         },
         {
-            name: "Anajli Mani",
-            src: null
+            name: "Anjali Mani",
+            src: "images/profile/Anjali_Mani.png"
         },
         {
             name: "Elizabeth (Emma) Tu",
