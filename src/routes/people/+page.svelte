@@ -45,7 +45,7 @@
         },
         {
             name: "Anjali Mani",
-            src: "images/profile/Anjali_Mani.png"
+            src: "images/profile/Anjali_Mani.jpg"
         },
         {
             name: "Elizabeth (Emma) Tu",
