@@ -16,6 +16,11 @@
             src: null
         },
         {
+            name: "Clove Taylor, B.Sc.",
+            src: "images/profile/clove_taylor.png",
+            alum: true
+        },
+        {
             name: "Caitlin Tang, B.Sc.",
             src: "images/profile/caitlin_tang.jpg"
         },
@@ -39,7 +44,7 @@
             name: "Imogene Gaede",
             src: null
         },
-                {
+        {
             name: "Satviki Chatuverdi",
             src: null
         },
@@ -55,16 +60,24 @@
             name: "Maya Viramontes",
             src: null
         },
+        {
+            name: "Maya Viramontes",
+            src: null
+        },
+		    {
+            name: "Maryam Mohamed",
+            src: null
+        }
     ]
     let alums = [
         {
-            name: "Clove Taylor, B.Sc.",
-            src: "images/profile/clove_taylor.png"
+            name: "Matt Zinter, MD",
+            src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FD5603AQEwjqFWGPqRfQ%2Fprofile-displayphoto-shrink_800_800%2F0%2F1671599203688%3Fe%3D2147483647%26v%3Dbeta%26t%3D7hoZcYwInUks7o0cmvAVvEEERTTyguwSPSzUQmM52rA&f=1&nofb=1&ipt=2616fc53673b760e7939bd43ca97950ecf4c59b833082250bbefa42849eb7251&ipo=images",
             alum: true
         },
         {
-            name: "Matt Zinter, MD",
-            src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FD5603AQEwjqFWGPqRfQ%2Fprofile-displayphoto-shrink_800_800%2F0%2F1671599203688%3Fe%3D2147483647%26v%3Dbeta%26t%3D7hoZcYwInUks7o0cmvAVvEEERTTyguwSPSzUQmM52rA&f=1&nofb=1&ipt=2616fc53673b760e7939bd43ca97950ecf4c59b833082250bbefa42849eb7251&ipo=images",
+            name: "Nithya Reddy",
+            src: null,
             alum: true
         }
         {
@@ -111,13 +124,6 @@
             {#if flyIn}
                 {#each alums as person, i}
                     <Person person={person}/>
-                    <!-- <div class={`person${person.alum ? " alum" : ""}`} in:fly|global={{ y: 50, duration: 800, delay: (80*i) }}>
-                        
-                        <img src={person.src ?? "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F534%2F006%2Foriginal%2Fsocial-media-chatting-online-blank-profile-picture-head-and-body-icon-people-standing-icon-grey-background-free-vector.jpg&f=1&nofb=1&ipt=0541b37557b556d60ad384345c3c72310f5681fa608c069ee77fe5fa28040e6e&ipo=images"} alt={`Image of ${person.name ?? "Unknown"}`}/>
-                        <div>
-                            {person.name}
-                        </div>
-                    </div> -->
                 {/each}
             {/if}
         </div>
