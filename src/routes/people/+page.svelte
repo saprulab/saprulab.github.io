@@ -55,6 +55,10 @@
             name: "Maya Viramontes",
             src: null
         },
+		{
+            name: "Maryam Mohamed",
+            src: null
+        }
     ]
     let alums = [
         {
