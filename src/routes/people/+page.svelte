@@ -80,11 +80,6 @@
             src: null,
             alum: true
         }
-        {
-            name: "Nithya Reddy",
-            src: null
-            alum: true
-        },
     ]
 
     let flyIn = false;
