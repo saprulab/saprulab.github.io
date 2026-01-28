@@ -17,8 +17,7 @@
         },
         {
             name: "Clove Taylor, B.Sc.",
-            src: "images/profile/clove_taylor.png",
-            alum: true
+            src: "images/profile/clove_taylor.png"
         },
         {
             name: "Caitlin Tang, B.Sc.",
