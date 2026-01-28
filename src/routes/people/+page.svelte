@@ -20,7 +20,7 @@
             src: "images/profile/clove_taylor.png"
         },
         {
-            name: "Caitlin Tang, B.Sc.",
+            name: "Caitlin Tang e, B.Sc.",
             src: "images/profile/caitlin_tang.jpg"
         },
         {
