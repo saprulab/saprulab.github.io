@@ -11,15 +11,19 @@
             src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.uclahealth.org%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fportrait_3x4_010000_300x400%2Fpublic%2Fimages%2Fsapru-anil-1477644219.jpg%3Fh%3Dad8d341c%26f%3Df188de4a%26itok%3DcFl5vbUJ&f=1&nofb=1&ipt=ba3628cf110f4b5054576a49bd78872538d580eb5e7cb9ef90f7291b46d2dd97&ipo=images",
             summary: "Anil Sapru is a pediatric critical care physician and researcher with decades of experience studying inflammatory biomarkers in critically ill children."
         },
+		{
+            name: "Colin J. Sallee, M.D., MS",
+            src: null
+        },
+        {
+            name: "Ana C. Costa Monteiro, M.D., Ph.D.",
+            src: null
+        },
         {
             name: "Alejandro Espinoza, Ph.D.",
             src: null
         },
 		    {
-            name: "Clove Taylor, B.Sc.",
-            src: "images/profile/clove_taylor.png"
-        },
-        {
             name: "Clove Taylor, B.Sc.",
             src: "images/profile/clove_taylor.png"
         },
@@ -65,14 +69,6 @@
         },
         {
             name: "Maya Viramontes",
-            src: null
-        },
-        {
-            name: "Colin J. Sallee, M.D., MS",
-            src: null
-        },
-        {
-            name: "Ana C. Costa Monteiro, M.D., Ph.D.",
             src: null
         }
     ]
