@@ -49,7 +49,7 @@
         },
         {
             name: "Catherine Wang",
-            src: "static/images/profile/catherine_wang.jpg"
+            src: "images/profile/catherine_wang.jpg"
         },
         {
             name: "Dylan Yu",
@@ -69,7 +69,7 @@
         },
         {
             name: "Elizabeth (Emma) Tu",
-            src: "static/images/profile/emma_tu.jpg"
+            src: "images/profile/emma_tu.jpg"
         },
         {
             name: "Maya Viramontes",
