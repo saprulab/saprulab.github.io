@@ -15,6 +15,10 @@
             name: "Alejandro Espinoza, Ph.D.",
             src: null
         },
+		    {
+            name: "Clove Taylor, B.Sc.",
+            src: "images/profile/clove_taylor.png"
+        },
         {
             name: "Clove Taylor, B.Sc.",
             src: "images/profile/clove_taylor.png"
