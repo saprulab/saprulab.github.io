@@ -101,22 +101,22 @@
 		{
 			name: "Matteo Pellegrini, Ph. D.",
 			src: null,
-            collaborator = true
+            collaborator: true
 		},
         {
             name: "Daniela Markovic, MS",
             src: null,
-            collaborator = true
+            collaborator: true
         },
         {
             name: "Michelle J. Lim, M.D.",
             src: null,
-            collaborator = true
+            collaborator: true
         },
         {
             name: "Andreas Schwingshackl, M.D., Ph.D.",
             src: null,
-            collaborator = true
+            collaborator: true
         }
 	]
     let flyIn = false;
