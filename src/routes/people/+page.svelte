@@ -13,11 +13,11 @@
         },
 		{
             name: "Colin J. Sallee, M.D., MS",
-            src: null
+            src: "images/profile/colin.jpg"
         },
         {
             name: "Ana C. Costa Monteiro, M.D., Ph.D.",
-            src: null
+            src: "images/profile/ana.jpg"
         },
         {
             name: "Alejandro Espinoza, Ph.D.",
@@ -57,7 +57,7 @@
         },
         {
             name: "Imogene Gaede",
-            src: null
+            src: "images/profile/imogene.jpg"
         },
                 {
             name: "Satviki Chatuverdi",
@@ -83,7 +83,7 @@
     let alums = [
 		{
 			name: "Jamie Yang, MD",
-			src: null,
+			src: "images/profile/jamieyang.jpg",
 			alum: true
 		},
         {
@@ -100,22 +100,22 @@
         },
 		{
 			name: "Matteo Pellegrini, Ph. D.",
-			src: null,
+			src: "images/profile/matteo_pellegrini.png",
             collaborator: true
 		},
         {
             name: "Daniela Markovic, MS",
-            src: null,
+            src: "images/profile/daniela_markovic.jpeg",
             collaborator: true
         },
         {
             name: "Michelle J. Lim, M.D.",
-            src: null,
+            src: "images/profile/michellejlim.jpg",
             collaborator: true
         },
         {
             name: "Andreas Schwingshackl, M.D., Ph.D.",
-            src: null,
+            src: "images/profile/schwingshackl.jpeg",
             collaborator: true
         }
 	]
