@@ -23,7 +23,7 @@
             name: "Alejandro Espinoza, Ph.D.",
             src: null
         },
-		    {
+		{
             name: "Clove Taylor, B.Sc.",
             src: "images/profile/clove_taylor.png"
         },
@@ -35,6 +35,10 @@
             name: "Christine Zhang, B.Sc.",
             src: null
         },
+		{
+			name: "Ruth Cortado, B.S",
+			src: null
+		},
         {
             name: "Riya Abiram",
             src: "images/profile/riya_abiram.jpg"
@@ -45,7 +49,7 @@
         },
         {
             name: "Catherine Wang",
-            src: "images/profile/catherine_wang.png"
+            src: "static/images/profile/catherine_wang.jpg"
         },
         {
             name: "Dylan Yu",
@@ -65,7 +69,7 @@
         },
         {
             name: "Elizabeth (Emma) Tu",
-            src: null
+            src: "static/images/profile/emma_tu.jpg"
         },
         {
             name: "Maya Viramontes",
