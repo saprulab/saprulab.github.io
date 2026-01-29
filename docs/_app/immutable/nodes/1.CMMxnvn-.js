@@ -1,0 +1,1 @@
+import"../chunks/hbSGsm1g.js";import"../chunks/69_IOA4Y.js";import{n as o}from"../chunks/BTMg7u5x.js";import{t as p,a}from"../chunks/CZttRvXP.js";function s(r){o();var t=p("404 Error");a(r,t)}export{s as component};

@@ -15,13 +15,21 @@
             name: "Alejandro Espinoza, Ph.D.",
             src: null
         },
-		{
+		    {
+            name: "Clove Taylor, B.Sc.",
+            src: "images/profile/clove_taylor.png"
+        },
+        {
             name: "Clove Taylor, B.Sc.",
             src: "images/profile/clove_taylor.png"
         },
         {
             name: "Caitlin Tang, B.Sc.",
             src: "images/profile/caitlin_tang.jpg"
+        },
+        {
+            name: "Christine Zhang, B.Sc.",
+            src: null
         },
         {
             name: "Riya Abiram",
@@ -48,10 +56,6 @@
             src: null
         },
         {
-            name: "Christine Zhang, B.Sc.",
-            src: null
-        },
-        {
             name: "Anjali Mani",
             src: "images/profile/Anjali_Mani.jpg"
         },
@@ -61,6 +65,14 @@
         },
         {
             name: "Maya Viramontes",
+            src: null
+        },
+        {
+            name: "Colin J. Sallee, M.D., MS",
+            src: null
+        },
+        {
+            name: "Ana C. Costa Monteiro, M.D., Ph.D.",
             src: null
         }
     ]
