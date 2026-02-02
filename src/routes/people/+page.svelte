@@ -73,11 +73,11 @@
         },
         {
             name: "Maya Viramontes",
-            src: null
+            src: "images/profile/maya_viramontes.jpeg"
         },
 		{
 			name: "Maryam Mohamed",
-			src: null
+			src: "images/profile/maryam_mohamed.jpeg"
 		}
     ]
     let alums = [
